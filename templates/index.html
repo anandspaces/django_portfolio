@@ -8,7 +8,7 @@
     <meta name="author" content="Vaibhaw Anand">
     <title>Vaibhaw Anand Landing page</title>
     <!-- font icons -->
-    
+    <link rel="stylesheet" href="{% static 'vendors/themify-icons/css/themify-icons.css' %}">
     <!-- Bootstrap + main styles -->
 	<link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
@@ -54,10 +54,10 @@
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                        <a href="#service" class="nav-link">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#blog" class="nav-link">Blog</a>
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
                     </li>
                     <li class="nav-item last-item">
                         <a href="#contact" class="nav-link">Contact</a>
@@ -90,32 +90,25 @@
                 </ul>  
             </div>
             <div class="col-lg-4 about-card">
-                <h3 class="font-weight-light">My Expertise</h3>
+                <h3 class="font-weight-light">My works are associated with</h3>
                 <span class="line mb-5"></span>
                 <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
+                    <div class="col-1 text-danger pt-1"><i class="ti-world icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
                         <h6>Web Development</h6>
                         <!-- <p class="subtitle">Lorem ipsum dolor sit consectetur.</p> -->
                         <hr>
                     </div>
                 </div>
+                
                 <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-widget icon-lg"></i></div>
+                    <div class="col-1 text-danger pt-1"><i class="ti-bar-chart icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h6>UX/UI Design</h6>
-                        <!-- <p class="subtitle"> exercitat Repellendus,  corrupt.</p> -->
+                        <h6>Data Analysis</h6>
+                        <!-- <p class="subtitle">voluptate commodi illo voluptatib.</p> -->
                         <hr>
                     </div>
                 </div>
-                <!-- <div class="row">
-                    <div class="col-1 text-danger pt-1"><i class="ti-stats-up icon-lg"></i></div>
-                    <div class="col-10 ml-auto mr-3">
-                        <h6>Digital Marketing</h6>
-                        <p class="subtitle">voluptate commodi illo voluptatib.</p>
-                        <hr>
-                    </div>
-                </div> -->
             </div>
         </div>
     </div>
@@ -134,16 +127,20 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <h6>Web Developer</h6>
-                            <p class="subtitle">I have worked on HTML, CSS, JavaScript and also React framework in frontend. I have worked on django framework in backend</p>
+                            <h6>Web Development</h6>
+                            <p class="subtitle">I have worked on HTML, CSS, JavaScript, also I have worked on react and django framework.</p>
                             <hr>
-                            <h6>UX/UI Designer</h6>
-                            <p class="subtitle">I have learnt UX/UI design and also worked upon figma.</p>
+                            <h6>Data Analysis</h6>
+                            <p class="subtitle">I have worked on data analysis using python, and worked on numpy, pandas, matplotlib libraries.</p>
                             <hr>
                             <h6>Data Structures and Algorithms</h6>
                             <p class="subtitle">I have worked on Data Structures and Algorithms.</p>
+                            <hr>
                             <h6>Database Management Systems</h6>
                             <p class="subtitle">I have worked on MySQL and MongoDB in database.</p>
+                            <hr>
+                            <h6>Version Control System</h6>
+                            <p class="subtitle">I have worked on git and github.</p>
                         </div>
                     </div>
                 </div>
@@ -181,9 +178,9 @@
                             </div>
                             <h6>Python</h6>
                             <div class="progress mb-3">
-                                <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                            <h6>MySQL</h6>
+                            <h6>SQL</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
@@ -194,6 +191,10 @@
                             <h6>React</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <h6>UX/UI Design</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 82%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>
@@ -233,7 +234,7 @@
                             <div class="m-auto"><i class="ti-alarm-clock icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">100</h1>
+                            <h1 class="text-danger font-weight-bold font40">1K</h1>
                             <p class="text-light mb-1">Hours Worked</p>
                         </div>
                     </div>
@@ -244,7 +245,7 @@
                             <div class="m-auto"><i class="ti-layers-alt icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">10K</h1>
+                            <h1 class="text-danger font-weight-bold font40">1K</h1>
                             <p class="text-light mb-1">Project Finished</p>
                         </div>
                     </div>
@@ -252,11 +253,11 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="row">
                         <div class="col-5 text-right text-light border-right py-3">
-                            <div class="m-auto"><i class="ti-face-smile icon-xl"></i></div>
+                            <div class="m-auto"><i class="ti-youtube icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
                             <h1 class="text-danger font-weight-bold font40">100</h1>
-                            <p class="text-light mb-1">Happy Hours</p>
+                            <p class="text-light mb-1">Tutorial Hours</p>
                         </div>
                     </div>
                 </div>
@@ -266,7 +267,7 @@
                             <div class="m-auto"><i class="ti-heart-broken icon-xl"></i></div>
                         </div>
                         <div class="col-7 text-left py-3">
-                            <h1 class="text-danger font-weight-bold font40">1k</h1>
+                            <h1 class="text-danger font-weight-bold font40">100</h1>
                             <p class="text-light mb-1">Tea Drinked</p>
                         </div>
                     </div>
@@ -275,7 +276,7 @@
         </div>
     </section>
 
-    <!-- <section class="section" id="service">
+    <section class="section" id="service">
         <div class="container">
             <h2 class="mb-5 pb-4"><span class="text-danger">My</span> Services</h2>
             <div class="row">
@@ -285,8 +286,10 @@
                             <i class="ti-vector text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Ullam</h5>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                            <h5 class="mb-3 card-title text-dark">Front-End Development</h5>
+                            <P class="subtitle">Development of client-side components and functionalities using HTML, CSS, and JavaScript frameworks such as React, Angular, or Vue.js.
+                                Integration of design mockups into functional web layouts, ensuring pixel-perfect implementation and consistency across different devices and browsers.
+                                Optimization of front-end performance to enhance user experience and minimize load times.</P>
                         </div>
                     </div>
                 </div>
@@ -296,8 +299,10 @@
                             <i class="ti-write text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Asperiores</h5>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                            <h5 class="mb-3 card-title text-dark">Back-End Development</h5>
+                            <P class="subtitle">Building server-side applications and APIs using server-side programming languages like Python, PHP, Node.js, or Ruby on Rails.
+                                Database design and management, including the creation of relational or NoSQL databases, data modeling, and query optimization.
+                                Implementation of authentication, authorization, and user management systems to secure web applications and protect sensitive data.</P>
                         </div>
                     </div>
                 </div>
@@ -307,8 +312,9 @@
                             <i class="ti-package text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Tempora</h5>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                            <h5 class="mb-3 card-title text-dark">Full Stack Solution</h5>
+                            <P class="subtitle">Creation of end-to-end web applications, encompassing both client-side (front-end) and server-side (back-end) development.
+                                Utilization of a combination of front-end technologies (HTML, CSS, JavaScript) and back-end technologies (Python, Node.js, Ruby on Rails, etc.) to build fully functional and interactive web applications.</P>
                         </div>
                     </div>
                 </div>
@@ -318,8 +324,10 @@
                             <i class="ti-map-alt text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Provident</h5>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                            <h5 class="mb-3 card-title text-dark">Maintenence anad Support</h5>
+                            <P class="subtitle">Ongoing maintenance and updates to ensure the security, stability, and performance of web applications.
+                                Troubleshooting and debugging of issues reported by users or detected through monitoring systems.
+                                Providing technical support and guidance to clients or internal teams on using and maintaining web applications.</P>
                         </div>
                     </div>
                 </div>
@@ -329,8 +337,9 @@
                             <i class="ti-bar-chart text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Consectetur</h5>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                            <h5 class="mb-3 card-title text-dark">Responsive Web Design</h5>
+                            <P class="subtitle">Designing and developing websites that adapt and respond seamlessly to various screen sizes and devices, including desktops, laptops, tablets, and smartphones.
+                                Utilization of responsive design techniques such as fluid grids, flexible images, and media queries to create a consistent user experience across different devices.</P>
                         </div>
                     </div>
                 </div>
@@ -340,24 +349,19 @@
                             <i class="ti-support text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Veritatis</h5>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
+                            <h5 class="mb-3 card-title text-dark">Deployment and DevOps</h5>
+                            <P class="subtitle">Deployment of web applications to production environments using platforms such as AWS, Azure, Heroku, or Docker containers.
+                                Implementation of continuous integration and continuous deployment (CI/CD) pipelines to automate the build, test, and deployment processes.
+                                Monitoring of application performance, logs, and errors, and implementation of scaling strategies to handle varying levels of traffic.</P>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section> -->
-
-    <section class="section bg-dark py-5">
-        <div class="container text-center">
-            <h2 class="text-light mb-5 font-weight-normal">I Am Available For FreeLance</h2>
-            <button class="btn bg-primary w-lg" >Hire me</button>
-        </div>
     </section>
 
     <!-- Portfolio Section -->
-    <!-- <section class="section bg-custom-gray" id="portfolio">
+    <section class="section bg-custom-gray" id="portfolio">
         <div class="container">
             <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
             <div class="portfolio">
@@ -378,173 +382,88 @@
                 <div class="portfolio-container"> 
                     <div class="col-md-6 col-lg-4 web new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/web-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                            <a href="https://github.com/anandspaces/python.git">Python</a>
+                            <!-- <img src="imgs/web-1.jpg" class="img-fluid" alt="WEB">
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
+                                <a class="img-popup" href="imgs/web-1.jpg"></a>
                                 <div class="text-holder">
                                     <h6 class="title">WEB</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
                                 </div>
-                            </div>   
+                            </div>    -->
                         </div>             
                     </div>
                     <div class="col-md-6 col-lg-4 web new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">WEB</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div>
-                            </div> 
+                            <a href="">Restaurant</a>
                         </div>                         
                     </div>
                     <div class="col-md-6 col-lg-4 advertising new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/advertising-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                         
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">ADVERSTISING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div>
-                            </div>    
+                            <a href="">SortedApp</a>
                         </div>              
                     </div> 
                     <div class="col-md-6 col-lg-4 web">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/web-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">WEB</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div>
-                            </div>
+                            <a href="">MenApp</a>
                         </div>                                                     
                     </div>
-
                     <div class="col-md-6 col-lg-4 advertising"> 
                         <div class="portfolio-item">
-                            <img src="assets/imgs/advertising-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                               
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">ADVERSITING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div>
-                            </div>
+                            <a href="">FemaleApp</a>
                         </div>                                                       
                     </div> 
                     <div class="col-md-6 col-lg-4 web new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/web-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
-                           <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">WEB</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div>
-                            </div>
+                            <a href="">GenderApp</a>
                         </div>                                                     
                     </div>
                     <div class="col-md-6 col-lg-4 advertising new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/advertising-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">       
-                           <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">ADVERSITING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div>
-                            </div>
+                            <a href="">TApp</a>
                         </div>                                                       
                     </div> 
                     <div class="col-md-6 col-lg-4 advertising new"> 
                         <div class="portfolio-item">
-                            <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">            
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">ADVERTISING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div>
-                            </div>
-                        </div>
-                                
+                            <a href="">ZApp</a>
+                        </div>     
                     </div> 
                     <div class="col-md-6 col-lg-4 branding new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                        
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">BRANDING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div>
-                            </div> 
+                            <a href="">AAPP</a>
                         </div>
                     </div> 
                     <div class="col-md-6 col-lg-4 branding">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">  
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">BRANDING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div>
-                            </div>
+                            <a href="">QApp</a>
                         </div>                                                     
                     </div> 
                     <div class="col-md-6 col-lg-4 branding new">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">   
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">BRANDING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div>
-                            </div>
+                            <a href="">WApp</a>
                         </div>                                                    
                     </div> 
                     <div class="col-md-6 col-lg-4 branding">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">                      
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">BRANDING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div>
-                            </div>
+                            <a href="">EApp</a>
                         </div>                                                      
                     </div> 
                     <div class="col-md-6 col-lg-4 branding">
                         <div class="portfolio-item">
-                            <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">          
-                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
-                                <div class="text-holder">
-                                    <h6 class="title">BRANDING</h6>
-                                    <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                                </div>
-                            </div>
+                            <a href="">FApp</a>
                         </div>                                                   
                     </div>
                 </div> 
             </div>  
         </div>            
-    </section> -->
+    </section>
     <!-- End of portfolio section -->
 
     <!-- <section class="section" id="blog">
         <div class="container">
             <h2 class="mb-5">Latest <span class="text-danger">News</span></h2>
-            <div class="row"> -->
-                <!-- <div class="blog-card">
+            <div class="row">
+                <div class="blog-card">
                     <div class="img-holder">
                         <img src="assets/imgs/blog1.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                     </div>
@@ -622,15 +541,7 @@
                         <form action="" method="post">
                             {% csrf_token %}
                             {{form}}
-                            <!-- <div class="form-group">
-                                <input  class="form-control" id="formname" type="text" placeholder="Name *" required>
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control" id="formemail" type="email" placeholder="Email *" required>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" id="formtextarea" placeholder="Message *" rows="7" required></textarea>
-                            </div> -->
+                            <br>
                             <div class="form-group ">
                                 <button type="submit" class="form-control btn btn-primary" >Send Message</button>
                             </div>
